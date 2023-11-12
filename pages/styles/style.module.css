@@ -1,0 +1,11 @@
+.main a{
+    color: #2d25c7;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main a:nth-child(1){
+    margin: 0;
+}
