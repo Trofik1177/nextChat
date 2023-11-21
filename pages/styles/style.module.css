@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .main a{
     color: #2d25c7;
     text-decoration: none;
@@ -8,4 +10,50 @@
 
 .main a:nth-child(1){
     margin: 0;
+}
+
+.input_registration{
+    width: 491.31px;
+    display:block;
+    border: none;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    outline: none;
+    padding: 8px 0;
+}
+.input_registration::placeholder{
+    opacity: 0.6;
+}
+.registration_wrapper{
+    display: flex;
+    justify-content: center;
+  
+
+}
+.registration_button{
+    color: rgb(213, 213, 213);
+    background-color: black;
+    width: 491.31px;
+    padding: 10px 0;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    
+}
+.registration_title{
+    color: rgb(46, 46, 46);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin: 0;
+    margin-left: 490px;
+    margin-top: 100px;
+    
+}
+.registration_description{
+    color: rgb(46, 46, 46);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    margin-left: 32.8vw;
 }
