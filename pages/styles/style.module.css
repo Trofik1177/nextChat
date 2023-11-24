@@ -45,15 +45,42 @@
     color: rgb(46, 46, 46);
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    margin: 0;
-    margin-left: 490px;
-    margin-top: 100px;
     
 }
 .registration_description{
     color: rgb(46, 46, 46);
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    margin: 0;
-    margin-left: 32.8vw;
+}
+
+.input_authorization{
+    width: 491.31px;
+    display:block;
+    border: none;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    outline: none;
+    padding: 8px 0;
+}
+.input_authorization::placeholder{
+    opacity: 0.6;
+}
+
+.authorization_button{
+    color: rgb(213, 213, 213);
+    background-color: black;
+    width: 491.31px;
+    padding: 10px 0;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.authorization_wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 200px 0;
+
 }

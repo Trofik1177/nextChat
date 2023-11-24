@@ -1,6 +1,7 @@
 
 import Header from '../components/header';
 import styles from '../pages/styles/style.module.css';
+import Link from "next/link";
 
 const registration = () => {
 
@@ -37,20 +38,15 @@ const registration = () => {
       })
     }
 
-    const btn = () => {
-        const pencil = document.getElementById('reg_firstname').value;
-        console.log(pencil);
-
-    }
     return (
         <div>
             {/* <Header title = "Регистрация"/> */}
-            <div >
-              <p className={styles.registration_title}>Регистрация</p>
-              <p className={styles.registration_description}><br></br>Создайте учётную запись <br></br> пользователя</p>
-             </div>
             <div className={styles.registration_wrapper}>
             <div>
+            <p className={styles.registration_title}>Регистрация</p>
+
+            <p className={styles.registration_description}><br></br>Создайте учётную запись <br></br> пользователя</p>
+
               <div><strong id="error_show" style={{color:'#A30000'}}></strong></div>
               <br/>
               <input id='reg_firstname' className={styles.input_registration} placeholder='Имя' />
@@ -60,7 +56,9 @@ const registration = () => {
               <input id='reg_phone' className={styles.input_registration} placeholder='Телефон' />
               <input id='reg_password' className={styles.input_registration} placeholder='Пароль' />
               <button onClick={submitForm} className={styles.registration_button}>Зарегистрироваться</button>  
-              <button className={styles.registration_button}>Войти</button>             
+              <Link className={styles.authorization_button} href="/authorization">
+                Войти
+              </Link>            
             </div>
             </div>
         </div>
