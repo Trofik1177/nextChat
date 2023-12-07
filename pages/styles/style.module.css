@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .main a{
     color: #2d25c7;
     text-decoration: none;
@@ -8,4 +10,167 @@
 
 .main a:nth-child(1){
     margin: 0;
+}
+
+.input_registration{
+    width: 491.31px;
+    display:block;
+    border: none;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    outline: none;
+    padding: 8px 0;
+}
+.input_registration::placeholder{
+    opacity: 0.6;
+}
+.registration_wrapper{
+    display: flex;
+    justify-content: center;
+  
+
+}
+.registration_button{
+    color: rgb(213, 213, 213);
+    background-color: black;
+    width: 491.31px;
+    padding: 10px 0;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    
+}
+.registration_title{
+    color: rgb(46, 46, 46);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    
+}
+.registration_description{
+    color: rgb(46, 46, 46);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.input_authorization{
+    width: 491.31px;
+    display:block;
+    border: none;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    outline: none;
+    padding: 8px 0;
+}
+.input_authorization::placeholder{
+    opacity: 0.6;
+}
+
+.authorization_button{
+    color: rgb(213, 213, 213);
+    background-color: black;
+    width: 491.31px;
+    padding: 10px 0;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.authorization_wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 200px 0;
+
+}
+
+/* Chat.js------------------------------------------------------------------------------------- */
+
+.chat_wrapper{
+    display: flex;
+}
+.sidebar{
+    overflow-y: auto;
+    width: 30%;
+    background-color: rgb(27, 24, 24);
+    height: 100vh;
+}
+
+.presets_wrapper{
+    padding: 5px 10px;
+}
+
+.chat_main{
+    width: 70%;
+    background-color: rgb(70, 70, 70);
+    height: 100vh;
+}
+
+.chat_card{
+    padding: 12px 15px 0px 10px;
+    height: 60px;
+    border-bottom: rgb(176, 156, 243) 3px solid;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat_inner{
+    display: flex;
+}
+
+.chat_name{
+    margin-left: 10px;
+    display: block;
+}
+
+.chat_message{
+    margin-top: 5px;
+    margin-left: 10px;
+    display: block;
+}
+
+.chat_main_message{
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+}
+
+.chat_photo{
+    height: 50px;
+    width: 50px;
+    background: rgb(89, 89, 90);
+    border-radius: 50px;
+}
+
+.search{
+    background-color: #333333;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 98%;
+    height: 30px;
+    caret-color: #999999;
+    color: #999999;
+    padding-left: 10px;
+}
+
+.search::placeholder{
+    text-align: center;
+}
+
+.search_wrapper{
+    display: block;
+}
+
+.btnMenu{
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    text-align: right;
 }

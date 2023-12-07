@@ -4,7 +4,7 @@ import Header from '../components/header';
 const index = () => {
     return (
         <div>
-            <Header title = "Регистрация"/>
+            <Header title = "Главная"/>
         </div>
     )
 }
